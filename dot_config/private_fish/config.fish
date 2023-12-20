@@ -12,6 +12,7 @@ abbr --add yay paru
 abbr --add config ~/.config/
 abbr --add applications ~/.local/state/applications
 abbr --add drivers "lspci -k | grep -A 2 -E \"(VGA|3D)\""
+abbr --add dotfiles chezmoi
 
 # NeoVide env-variables
 # set -x NEOVIDE_MULTIGRID true
