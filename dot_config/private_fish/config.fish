@@ -6,7 +6,6 @@ abbr --add gco git checkout
 abbr --add dc docker compose
 abbr --add fishconfig nvim ~/.config/fish/config.fish
 abbr --add nvimconfig nvim ~/.config/nvim/init.lua
-abbr --add remove-swap-neovim rm -rf ~/.local/state/nvim/swap/
 
 abbr --add yay paru
 
@@ -18,7 +17,5 @@ abbr --add drivers "lspci -k | grep -A 2 -E \"(VGA|3D)\""
 # set -x NEOVIDE_MULTIGRID true
 # set -x NEOVIDE_MAXIMIZED true
 # set -x NEOVIDE_FRAME none
-
-fisher update
 
 starship init fish | source
