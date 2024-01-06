@@ -2,7 +2,6 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
-abbr --add gco git checkout
 abbr --add dc docker compose
 abbr --add fishconfig nvim ~/.config/fish/config.fish
 abbr --add nvimconfig nvim ~/.config/nvim/init.lua
